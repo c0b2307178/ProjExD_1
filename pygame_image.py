@@ -34,7 +34,7 @@ def main():
         if key_lst[pg.K_DOWN]:  # 下矢印キーを押した場合
             dy = +3
 
-        # こうかとんの位置を更新
+        # こうかとんの位置を更新,move_ipを1回にする
         kk_rct.move_ip(dx, dy)
 
         # 背景とこうかとんを描画
